@@ -1,0 +1,13 @@
+# Ignore dataset and private files
+DATASET/
+COLLEGE FILES/
+
+# Ignore virtual env
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore model file
+*.h5
