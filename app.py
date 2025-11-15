@@ -68,7 +68,12 @@ if uploaded_file:
         )
 
     st.info(CELL_ROLES[predicted_class])
+<<<<<<< HEAD
     
     # Add note for clarity
     st.markdown("---")
     
+=======
+    # 🧾 Add note for clarity
+    st.markdown("---")
+>>>>>>> 9ba661f6d08ebdca33dcc0bdc82b881ee2096239
