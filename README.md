@@ -53,13 +53,6 @@ A solid accuracy for a traditional CNN model trained on medical-image data.
 
 ### 🔍 Highlights
 
-| Cell Type | Precision | Recall | F1-Score |
-|-----------|-----------|--------|----------|
-| EOSINOPHIL | 0.90 | 0.84 | 0.87 |
-| LYMPHOCYTE | 0.99 | 0.94 | 0.97 |
-| MONOCYTE | 0.98 | 0.75 | 0.85 |
-| NEUTROPHIL | 0.67 | 0.91 | 0.77 |
-
 - **Lymphocytes**: Highest overall performance  
 - **Neutrophils**: High recall but lower precision  
 - Very strong overall macro F1 score of **0.86**
