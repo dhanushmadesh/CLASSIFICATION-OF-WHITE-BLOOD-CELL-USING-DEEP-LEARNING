@@ -11,7 +11,7 @@ This project trains a custom CNN model and deploys it through a **Streamlit web 
 
 ---
 
-# 📂 Dataset Used
+# Dataset Used
 
 🔗 **Dataset Link:**  
 https://www.kaggle.com/datasets/paultimothymooney/blood-cells
@@ -20,7 +20,7 @@ The dataset contains **12,500+ augmented images** distributed across 4 classes, 
 
 
 
-# ⭐ Final Model Performance
+# Final Model Performance
 
 ### ✔ **Final Test Accuracy: 86.01%**
 
@@ -30,7 +30,7 @@ A solid accuracy for a traditional CNN model trained on medical-image data.
 
 ---
 
-# 📈 Training Curves
+# Training Curves
 
 ### **Accuracy & Loss Graphs**
 
@@ -45,7 +45,7 @@ A solid accuracy for a traditional CNN model trained on medical-image data.
 
 ---
 
-# 🧪 Classification Report
+# Classification Report
 
 <p align="center">
   <img src="FIGURES/CLASSIFICATION REPORT .png" width="700"/>
@@ -59,7 +59,7 @@ A solid accuracy for a traditional CNN model trained on medical-image data.
 
 ---
 
-# 🔍 Confusion Matrix
+# Confusion Matrix
 
 <p align="center">
   <img src="FIGURES/CONFUSION_MATRIX.png" width="500"/>
@@ -69,7 +69,7 @@ This visualizes prediction performance across all four classes and highlights co
 
 ---
 
-# 🏗️ Model Architecture
+# Model Architecture
 
 The CNN model includes:
 
@@ -97,7 +97,7 @@ The CNN model includes:
 
 ---
 
-# 🎛️ Streamlit Web App
+# Streamlit Web App
 
 The web app:
 
