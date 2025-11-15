@@ -18,7 +18,6 @@ https://www.kaggle.com/datasets/paultimothymooney/blood-cells
 
 The dataset contains **12,500+ augmented images** distributed across 4 classes, with balanced sample sizes of ~3000 per class.
 
-Each image is a high-quality microscopic view of a single white blood cell — making it ideal for deep learning classification tasks.
 
 
 # ⭐ Final Model Performance
@@ -36,7 +35,7 @@ A solid accuracy for a traditional CNN model trained on medical-image data.
 ### **Accuracy & Loss Graphs**
 
 <p align="center">
-  <img src="ACCURACY_AND_LOSS.png" width="800"/>
+  <img src="FIGURES/ACCURACY_AND_LOSS.png" width="800"/>
 </p>
 
 - Smooth convergence  
@@ -49,7 +48,7 @@ A solid accuracy for a traditional CNN model trained on medical-image data.
 # 🧪 Classification Report
 
 <p align="center">
-  <img src="CLASSIFICATION REPORT .png" width="700"/>
+  <img src="FIGURES/CLASSIFICATION REPORT .png" width="700"/>
 </p>
 
 ### 🔍 Highlights
@@ -70,7 +69,7 @@ A solid accuracy for a traditional CNN model trained on medical-image data.
 # 🔍 Confusion Matrix
 
 <p align="center">
-  <img src="CONFUSION_MATRIX.png" width="500"/>
+  <img src="FIGURES/CONFUSION_MATRIX.png" width="500"/>
 </p>
 
 This visualizes prediction performance across all four classes and highlights common misclassifications.
