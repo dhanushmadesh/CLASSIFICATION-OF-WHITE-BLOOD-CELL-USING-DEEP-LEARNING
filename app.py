@@ -22,7 +22,7 @@ enabling faster and more reliable medical diagnosis.
 
 st.write("Upload a microscopic image of a white blood cell to identify its type and learn its biological role below.")
 
-model = tf.keras.models.load_model("model_name.h5")
+model = tf.keras.models.load_model("wbc_classifier_model.h5")
 CLASS_NAMES = ["EOSINOPHIL", "LYMPHOCYTE", "MONOCYTE", "NEUTROPHIL"]
 IMG_SIZE = (224, 224)
 
@@ -68,12 +68,6 @@ if uploaded_file:
         )
 
     st.info(CELL_ROLES[predicted_class])
-<<<<<<< HEAD
-    
     # Add note for clarity
     st.markdown("---")
     
-=======
-    # 🧾 Add note for clarity
-    st.markdown("---")
->>>>>>> 9ba661f6d08ebdca33dcc0bdc82b881ee2096239
